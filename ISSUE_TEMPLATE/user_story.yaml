@@ -2,7 +2,7 @@ name: 📚 User Story
 description: Template for creating a user story with acceptance criteria
 title: "[Story]: "
 # labels: [user story]
-# body:
+body:
 #   - type: markdown
 #     attributes:
 #       value: |
