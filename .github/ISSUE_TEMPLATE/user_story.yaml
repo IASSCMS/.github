@@ -38,14 +38,14 @@ body:
       description: Add any known information, notes, or assumptions here.
       placeholder: "* Document what you know..."
 
-- type: textarea
-  id: acceptance
-  attributes:
-    label: Acceptance Criteria
-    description: Define done-ness using Gherkin syntax.
-    value: |
-      ```gherkin
-      Given [some context]
-      When [certain action is taken]
-      Then [the outcome of action is observed]
-      ```
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Define done-ness using Gherkin syntax.
+      value: |
+        ```gherkin
+        Given [some context]
+        When [certain action is taken]
+        Then [the outcome of action is observed]
+        ```
